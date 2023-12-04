@@ -12,7 +12,7 @@ Your task is to build a multi-level form with the following features:
 
 3. **Document Upload:** Allow users to upload documents (e.g., PDFs, images) as part of the form. Ensure that the uploaded documents are associated with the user's form data.
 
-4. **Database Integration (PERN Stack):** Utilize the PERN stack (PostgreSQL, Express.js, React.js, Node.js) to store and retrieve form data, including the uploaded documents.
+4. **Database Integration (PERN Stack) or your preferred tech stack:** Utilize the PERN stack (PostgreSQL, Express.js, React.js, Node.js) to store and retrieve form data, including the uploaded documents.
 
 ## Submission
 
