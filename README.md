@@ -1,6 +1,6 @@
 # Software Intern Test
 
-Welcome to the Software Intern Test! This project assesses your skills in creating a multi-level form with a percentage indication of form completion. Additionally, the form should support the uploading of documents, and the data will be stored in a database. The preferred stack for this test is PERN (PostgreSQL, Express.js, React.js, Node.js).
+Welcome to the Software Intern Test! This project assesses your skills in creating a multi-level form with a percentage indication of form completion. Additionally, the form should support the uploading of documents, and the data will be stored in a database. The preferred stack for this test is PERN (PostgreSQL, Express.js, React.js, Node.js) or your preferred tech stack.
 
 ## Task Description
 
