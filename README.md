@@ -30,5 +30,5 @@ This project contains code and configurations for integrating Cloudinary into pr
 2. Move into the directory
 3. Install dependencies on both server and client
     npm i
-4. Run the server and client
+5. Run the server and client
     npm run dev
