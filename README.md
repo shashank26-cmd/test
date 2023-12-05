@@ -1,21 +1,34 @@
-# Software Intern Test
+# Multi-Level Form
 
-Welcome to the Software Intern Test! This project assesses your skills in creating a multi-level form with a percentage indication of form completion. Additionally, the form should support the uploading of documents, and the data will be stored in a database. The preferred stack for this test is PERN (PostgreSQL, Express.js, React.js, Node.js) or your preferred tech stack.
+My self Shashank Mishra me and Ayush have created this website using MERN Stack .Ayush have done the Frontend part and i have done the backend part.
 
-## Task Description
+In this website the user will fill the data and click on next or submit button then the percentage will be shown of how much the data have been field
 
-Your task is to build a multi-level form with the following features:
 
-1. **Multi-Level Form:** Create a form with at least two levels. For example, the first level might collect basic information (e.g., name, email), and the second level could gather more detailed information (e.g., address, phone number).
+# Cloudinary Integration
 
-2. **Percentage Indication:** Implement a dynamic percentage indicator that reflects the completion status of the form. The percentage should be updated accordingly as the user progresses through the form.
 
-3. **Document Upload:** Allow users to upload documents (e.g., PDFs, images) as part of the form. Ensure that the uploaded documents are associated with the user's form data.
+This project contains code and configurations for integrating Cloudinary into project..
 
-4. **Database Integration (PERN Stack) or your preferred tech stack:** Utilize the PERN stack (PostgreSQL, Express.js, React.js, Node.js) to store and retrieve form data, including the uploaded documents.
+## Getting Started
 
-## Submission
+1. **Sign Up for Cloudinary:** If you don't have a Cloudinary account, [sign up here](https://cloudinary.com/users/register/free).
 
-Create a fork of this repository and submit your solution by creating a pull request. Ensure that your code is well-documented, and the README in your fork includes any additional setup instructions or explanations.
+2. **Installation:**
+   
+   - Include your Cloudinary credentials in your project configuration.
 
-Good luck, and happy coding!
+3. **Configuration:**
+   - Set your Cloudinary credentials in env file 
+   - Adjust any necessary settings based on your requirements.
+
+
+
+# How to run on your system
+
+1. Clone the project
+2. Move into the directory
+3. Install dependencies on both server and client
+    npm i
+4. Run the server and client
+    npm run dev
