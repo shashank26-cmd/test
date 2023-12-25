@@ -41,6 +41,27 @@ export default function Form1() {
             .catch(err => console.log(err))
             .finally(() => setLoading(false));
     }
+
+
+    // u can use this .. also
+    
+async function handleSubmit() {
+    setLoading(true);
+
+    try {
+        const response = await axios.post(`${url}/api/v1/user/first-level`, data, {
+            headers: { "Content-Type": "application/json" }
+        });
+
+        console.log(response.data);
+        navigate(`/next/${response.data.userId}`);
+    } catch (error) {
+        console.error(error);
+    } finally {
+        setLoading(false);
+    }
+}
+
     
     return (
         <div className="min-h-screen bg-gradient-to-r from-purple-200 via-purple-400 to-purple-800 flex flex-col justify-center items-center gap-4">
